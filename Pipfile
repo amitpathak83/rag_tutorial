@@ -4,26 +4,18 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-# Core LLM and Agent frameworks
 langchain = ">=0.1.0"
 langchain-ollama = ">=0.1.0"
 langchain-community = ">=0.1.0"
 langgraph = ">=0.1.0"
-
-# MCP and Tool Integration
 mcp = ">=0.1.0"
 langchain-mcp-adapters = "*"
-
-# Vector Database and RAG
 chromadb = ">=0.5.0,<0.6.0"
 pypdf = ">=4.0.0"
-
-# LLM and Embeddings
 ollama = "*"
-
-# Utilities
 pydantic = ">=2.0.0"
 python-dotenv = "*"
+fastmcp = "*"
 
 [dev-packages]
 
