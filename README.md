@@ -375,3 +375,4 @@ Perfect for learning or building production MCP servers!
 **Python**: 3.10+  
 **Framework**: LangChain, LangGraph, FastMCP  
 **LLM**: Ollama (local)
+Use any PDF
